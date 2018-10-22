@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Assignment 5</title>
+		<title>Assignment 8</title>
 		<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	</head>
 	<body>
-		<button id="bttn" onclick="document.getElementById('skills')">Elizabeth Casey's Top 3 Skills</button>
-		<div id="skills">
-			<ul>
+		<button class="bttn" onclick="document.getElementById('skills').innerHTML = 'those were some of my skills!'">Elizabeth Casey's Top 3 Skills</button>
+		
+			<ul id ="skills">
 				<li>Organizing pretty much anything</li>
 				<li>Binge watching reality tv</li>
 				<li>Quoting lines from The Office</li>
 			</ul>
-		</div>
-
-		<h3>Past Work Experience</h3>
-		<ol>
+		
+<!-- <button id="bttn" onclick="document.getElementById('myPara').innerHTML = 'hello'"">Click me!</button> -->
+	<!-- <p id="myPara"></p> -->
+		<button class="bttn" onclick="document.getElementById('exp').innerHTML = 'my past work experience!'">Past Work Experience</button>
+		<ol id="exp">
 			<li>Marketing Internship at the Maiden Farmer</li>
 				<ul>
 					<li>Researched market trends</li>

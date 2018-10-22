@@ -5,7 +5,7 @@ body {
 	padding: 10px;
 }
 
-#bttn {
+.bttn {
 	display: inline;
 	background-color: #fdfff8;
 	padding-right: 3px;
